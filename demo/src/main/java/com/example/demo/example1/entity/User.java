@@ -30,4 +30,5 @@ public class User {
     @ApiModelProperty(value = "邮箱", required = false, name = "email")
     private String email;
     //啊啊啊啊
+    //水水水水水
 }
