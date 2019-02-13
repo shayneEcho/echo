@@ -18,6 +18,7 @@ import javax.persistence.*;
 @Data
 @ApiModel(value = "用户对象",description = "用户对象user")
 public class User {
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @ApiModelProperty(value = "主键 id", required = true, name = "id")
